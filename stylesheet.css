@@ -1,0 +1,196 @@
+/* Définir la police de caractères globale */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styles pour la barre de navigation */
+header {
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Accueil */
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(45deg, #007BFF, #0056b3);
+    color: white;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+/* Section À propos */
+#about {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+#about h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #007BFF;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Video dans la section About */
+#about video {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Section Travail */
+#work {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#work h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+#work ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#work li {
+    margin: 15px 0;
+}
+
+#work a {
+    font-size: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#work a:hover {
+    text-decoration: underline;
+}
+
+/* Section CV */
+#cv {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+#cv h2 {
+    font-size: 36px;
+    color: #007BFF;
+    text-align: center;
+}
+
+#cv table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#cv th, #cv td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Section Contact */
+#contact {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    font-size: 16px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer a {
+    color: #007BFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
