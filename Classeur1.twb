@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator' inline='true' name='federated.1vzai0q1x3h3y41d41m720839e9v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator' name='textscan.04ndtan0tivfog0zqeeyr1ydlsci'>
+            <connection class='textscan' directory='/Users/macintosh/Downloads' filename='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.04ndtan0tivfog0zqeeyr1ydlsci' name='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv' table='[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=' '>
+            <column datatype='string' name='Segment,Category,Sub-Category,City,Order' ordinal='0' />
+            <column datatype='string' name='Date,Postal' ordinal='1' />
+            <column datatype='string' name='Code,Region,Ship' ordinal='2' />
+            <column datatype='string' name='Status,State,Profit,Quantity,Sales' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot; &quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment,Category,Sub-Category,City,Order</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segment,Category,Sub-Category,City,Order]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>Segment,Category,Sub-Category,City,Order</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date,Postal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Date,Postal]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>Date,Postal</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code,Region,Ship</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code,Region,Ship]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>Code,Region,Ship</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status,State,Profit,Quantity,Sales</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Status,State,Profit,Quantity,Sales]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>Status,State,Profit,Quantity,Sales</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Segment,Category,Sub-Category,City,Order]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Status,State,Profit,Quantity,Sales]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv' datatype='table' name='[__tableau_internal_object_id__].[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Status,State,Profit,Quantity,Sales, Segment,Category,Sub-Category,City,Order'>
+          <field>[Status,State,Profit,Quantity,Sales]</field>
+          <field>[Segment,Category,Sub-Category,City,Order]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='/var/folders/x8/f6rl4w4500d7kt6mh9pkz35h0000gq/T/tableau-temp/#TableauTemp_01023cz0diylbr12bwuft0m9o4xg.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/29/2024 01:58:41 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Segment,Category,Sub-Category,City,Order</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Segment,Category,Sub-Category,City,Order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Segment,Category,Sub-Category,City,Order</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date,Postal</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Date,Postal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date,Postal</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>645</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Code,Region,Ship</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Code,Region,Ship]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Code,Region,Ship</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2323</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Status,State,Profit,Quantity,Sales</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Status,State,Profit,Quantity,Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Status,State,Profit,Quantity,Sales</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3150</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F5</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F5</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2821</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F6</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F6</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1147</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>530</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F8</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F8]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F8</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>374</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv' id='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv_8CF18D51144C44F3A316EF9CC138720D'>
+            <properties context=''>
+              <relation connection='textscan.04ndtan0tivfog0zqeeyr1ydlsci' name='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator.csv' table='[Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=' '>
+                  <column datatype='string' name='Segment,Category,Sub-Category,City,Order' ordinal='0' />
+                  <column datatype='string' name='Date,Postal' ordinal='1' />
+                  <column datatype='string' name='Code,Region,Ship' ordinal='2' />
+                  <column datatype='string' name='Status,State,Profit,Quantity,Sales' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Feuille 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Accelerator+Program+Data+Set_2021.06.07 (1).xlsx - Accelerator' name='federated.1vzai0q1x3h3y41d41m720839e9v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vzai0q1x3h3y41d41m720839e9v'>
+            <column datatype='string' name='[Segment,Category,Sub-Category,City,Order]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[Segment,Category,Sub-Category,City,Order]' derivation='None' name='[none:Segment,Category,Sub-Category,City,Order:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1vzai0q1x3h3y41d41m720839e9v].[none:Segment,Category,Sub-Category,City,Order:nk]</cols>
+      </table>
+      <simple-id uuid='{9029F48E-94A6-42E2-9288-0B89E61E86B5}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Feuille 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='170'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vzai0q1x3h3y41d41m720839e9v].[none:Date,Postal:nk]</field>
+            <field>[federated.1vzai0q1x3h3y41d41m720839e9v].[none:Segment,Category,Sub-Category,City,Order:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{9EC50554-BB1F-4780-9FA5-2A831EBC1B1D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='128' name='Feuille 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAACACAYAAAACsL4LAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAP4UlEQVR4nO3dfUzU9QMH8DcHnDwsVE4REEymJqIo86FsWhooE5eGrbUFqy2xRTrnH/mU
+      mmkiU+dS0R6mlctaIhSYFs0EQQMpFMzSfGAqICgIHWrIcRd39/uD333lvEPhvt8Cvp/3a2uD
+      79N9jve3ve/7dLpZrVYriIhIOJruHgAREXUPFgARkaBYAEREgmIBEBEJigVARCQoFgARkaBY
+      AEREgmIBEBEJigVARCQoFgARkaBYAEREgmIBEBEJigVARCQoFgARkaBYAEREgmIBEBEJigVA
+      RCQoFgARkaBYAEREgmIBEBEJigVARCQoFgARkaBYAEREgmIBEBEJigVARCQoFgARkaBYAERE
+      gmIBEBEJigVARCQoFgARkaBYAEREgmIBEBEJigVARCQoFgARkaBYAEREgmIBEBEJigVARCQo
+      FgARkaBYAEREgmIBEBEJigVARCQoFgARkaBYAEREgmIBEBEJigVARCQoFgARkaBYAEREgmIB
+      EBEJigVARCQoFgARkaBYAEREgmIBEBEJigVARCQoFgARkaBYAEREgmIBEBEJigVARCQoFgAR
+      kaBYAEREgmIBEBEJigVARCQoFgARkaBYAEREgmIBEBEJigVARCQoFgARkaBYAEREgvLo7gH0
+      VDU1NTh//jzOnz8Pk8mEwMBAREZGYvz48d09NFIA81U35ts5LIAH6PV6rFmzBiUlJU7nh4aG
+      Ijs7+z8eFSmF+aob8+0angJq5+zZs0hISLDbeTQaDfr06SP9fv369e4YGimA+aob8+06HgH8
+      X0tLC1auXImGhgYAQHh4OJYsWYIxY8bAy8sL9fX1OHz4MDIyMrp5pOQK5qtuzNc1blar1arU
+      xoxGI2pra6HVahEYGAg3Nze7+fX19fj7778RFBQEb29vpV5WEZ999hk+/vhjAMDUqVOxadMm
+      eHl5OSxnsVig0Tg/cDIajSgvL4dGo8Hw4cOh1Wq7NIbm5mbU1dXB19cXAQEBnVq+paUF/fr1
+      63BMSmK+zJf5dqw35iu7AF599VWsW7cOe/bswYkTJ2AymQAAAwYMwNq1azFx4kRkZGTgm2++
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
